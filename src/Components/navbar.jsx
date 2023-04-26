@@ -3,7 +3,7 @@ import React from "react";
 const navbar = () => {
 	return (
 		<div className="h-[10vh]">
-			<nav className="bg-offWhite fixed h-[10vh] w-full z-20 top-0 left-0 border-b border-gray-200 ">
+			<nav className="bg-offWhite fixed h-[10vh] w-full z-20 top-0 left-0">
 				<div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 					<a
 						href="https://flowbite.com/"

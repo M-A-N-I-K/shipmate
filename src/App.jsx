@@ -1,7 +1,7 @@
 import { lazy, Suspense } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-
+import FloatingChatButton from "./Components/floatingChatButton";
 const Navbar = lazy(() => import("./Components/navbar"));
 const SearchForm = lazy(() => import("./Components/searchForm"));
 const Checkout = lazy(() => import("./Components/checkout"));
@@ -30,6 +30,7 @@ function App() {
 						/>
 					</Routes>
 				</Suspense>
+				<FloatingChatButton />
 			</BrowserRouter>
 		</div>
 	);

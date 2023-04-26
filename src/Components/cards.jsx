@@ -93,7 +93,7 @@ const cards = () => {
 					</div>
 				</div>
 				<div className="col-span-2 md:col-span-1 h-[22vh] w-[30vw] mb-10 md:mb-0 ml[20px] mt-[35px] p-2 bg-white rounded-xl shadow-2xl sm:pt-4 sm:pl-6">
-					<h5 className="hover:decoration-2 leading-none  text-lightGray place-item-start">
+					<h5 className="hover:decoration-2 leading-none text-lightGray place-item-start">
 						Insurance:
 						<span className="font-semibold">Xcover.com</span>
 					</h5>
