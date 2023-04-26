@@ -18,7 +18,9 @@ export default {
       'white': "#FFFFFF",
       'black': "#000000",
       'offWhite': "#F8F9FD",
-      'lightGray': "#868686"
+      'lightGray': "#868686",
+      'lightPurple': "#D3B0FF",
+      'darkPurple': "#9747FF"
     },
     extend: {},
   },
