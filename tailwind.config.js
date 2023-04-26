@@ -6,6 +6,7 @@ export default {
   darkMode: "class",
   theme: {
     colors: {
+      'offset': '#EBE8FF',
       'red': '#FF0000',
       'green': '#05FF00',
       'lightGreen': '#AFFFAD',

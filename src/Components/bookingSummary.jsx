@@ -21,17 +21,34 @@ const bookingSummary = () => {
 				<div>
 					<SideFilterBar />
 				</div>
-				<div className="flex flex-col justify-between">
-					<div className="w-[75vw] h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
+				<div className="flex flex-col justify-between w-[75vw]">
+					<div className="flex mb-10 w-[60vw] bg-offset rounded-xl shadow-2xl">
+						<div className="h-[8vh] w-[20vw] bg-white rounded-2xl shadow-2xl p-6">
+							<h5 className="text-sm text-center font-bold hover:decoration-2 leading-none  text-purple ">
+								Best Value 5-5 days. $3,121
+							</h5>
+						</div>
+						<div className="h-[5vh] w-[20vw] p-6">
+							<h5 className="text-sm text-center font-bold hover:decoration-2 leading-none  text-lightGray ">
+								Quickest 5-5 days. $3,121
+							</h5>
+						</div>
+						<div className="h-[5vh] w-[20vw] p-6">
+							<h5 className="text-sm text-center font-bold hover:decoration-2 leading-none  text-lightGray ">
+								Cheapest 5-5 days. $3,121
+							</h5>
+						</div>
+					</div>
+					<div className="w-[60vw] h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
 						<DetailsCard />
 					</div>
-					<div className="w-[75vw] h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
+					<div className="w-[60vw] h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
 						<DetailsCard />
 					</div>
-					<div className="w-[75vw] h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
+					<div className="w-[60vw] h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
 						<DetailsCard />
 					</div>
-					<div className="w-[75vw] h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
+					<div className="w-[60vw] h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
 						<DetailsCard />
 					</div>
 				</div>
