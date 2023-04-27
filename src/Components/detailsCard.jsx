@@ -4,6 +4,8 @@ import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faPlaneUp } from "@fortawesome/free-solid-svg-icons";
 import Img from "../assets/frame.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { Link } from "react-router-dom";
+
 const detailsCard = () => {
 	return (
 		<div className="flex md:flex-row flex-col justify-between p-6">
@@ -131,12 +133,14 @@ const detailsCard = () => {
 			</div>
 			<div className="flex flex-col h-[12vh] border-t-2 md:border-t-0 md:border-l-2 pl-2 border-lightGray border-opacity-40">
 				<p className="text-md text-center font-semibold">$ 3,659.25</p>
-				<button
-					type="button"
-					className="text-white bg-blue focus:ring-4 focus:outline-none font-medium rounded-2xl text-sm px-8 py-2 gap-x-2 text-center mr-5 mb-2 md:mr-0"
-				>
-					Select
-				</button>
+				<Link to="/booking-summary/checkout">
+					<button
+						type="button"
+						className="text-white bg-blue focus:ring-4 focus:outline-none font-medium rounded-2xl text-sm px-8 py-2 gap-x-2 text-center mr-5 mb-2 md:mr-0"
+					>
+						Select
+					</button>
+				</Link>
 				<p className="text-xs font-medium text-center underline">
 					View Details
 				</p>

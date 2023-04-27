@@ -20,15 +20,15 @@ function App() {
 				</Suspense>
 				<Suspense fallback={<div>Loading...</div>}>
 					<Routes>
-						<Route path="checkout" element={<Checkout />} />
+						<Route
+							path="/booking-summary/checkout"
+							element={<Checkout />}
+						/>
 					</Routes>
 				</Suspense>
 				<Suspense fallback={<div>Loading...</div>}>
 					<Routes>
-						<Route
-							path="/checkout/booking-summary"
-							element={<BookingSummary />}
-						/>
+						<Route path="/booking-summary" element={<BookingSummary />} />
 					</Routes>
 				</Suspense>
 			</BrowserRouter>

@@ -112,7 +112,7 @@ const locationbar = () => {
 			</div>
 			<div className="flex justify-between md:border-l-[1px] border-lightGray hover:border-blue self-end md:self-auto items-center">
 				<span className="p-4">
-					<Link to="/checkout">
+					<Link to="/booking-summary">
 						<button
 							type="button"
 							className="text-white bg-blue focus:ring-4 focus:outline-none font-medium rounded-xl shadow-2xl text-sm px-[30vw] md:px-2 py-2 gap-x-2 text-center mr-5 mb-2 md:mr-0"

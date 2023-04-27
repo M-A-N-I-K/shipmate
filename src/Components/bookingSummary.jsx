@@ -6,7 +6,7 @@ import DetailsCard from "./detailsCard";
 
 const bookingSummary = () => {
 	return (
-		<div className="flex flex-col justify-between w-[100vw] h-[300vh] md:h-[90vh] bg-offWhite">
+		<div className="flex flex-col justify-between w-[100vw] h-[300vh] md:h-[100vh] bg-offWhite">
 			<div className="flex flex-col md:grid md:grid-cols-3 gap-4 bg-offWhite">
 				<div className="col-span-3 p-10 ">
 					<div className="flex w-[80vw] md:w-[95vw] justify-center">

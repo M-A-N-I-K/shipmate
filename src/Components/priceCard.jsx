@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 const priceCard = () => {
 	return (
 		<>
@@ -101,14 +101,12 @@ const priceCard = () => {
 						</div>
 					</div>
 					<div className="text-center cursor-pointer duration-150 hover:bg-neutral-200 py-0.5 bg-neutral-100 text-neutral-400 font-semibold rounded-lg mt-3">
-						<Link to="booking-summary">
-							<button
-								type="button"
-								className="text-white bg-darkPurple focus:ring-4 focus:outline-none font-semibold rounded-lg text-md px-[86.5px] py-[10px] gap-x-2 text-center mr-5 mb-2 md:mr-0"
-							>
-								Checkout
-							</button>
-						</Link>
+						<button
+							type="button"
+							className="text-white bg-darkPurple focus:ring-4 focus:outline-none font-semibold rounded-lg text-md px-[86.5px] py-[10px] gap-x-2 text-center mr-5 mb-2 md:mr-0"
+						>
+							Checkout
+						</button>
 					</div>
 				</div>
 			</div>
