@@ -88,7 +88,7 @@ const priceCard = () => {
 						</div>
 						<div className="text-right">
 							<p className="text-md font-medium text-neutral-700">
-								$48.00
+								$119.48
 							</p>
 						</div>
 					</div>
@@ -97,7 +97,7 @@ const priceCard = () => {
 							<p className="text-lg text-neutral-700">Total:</p>
 						</div>
 						<div className="text-right">
-							<p className="text-lg text-neutral-700">$1,848.00</p>
+							<p className="text-lg text-neutral-700">$ 4,102.13</p>
 						</div>
 					</div>
 					<div className="text-center cursor-pointer duration-150 hover:bg-neutral-200 py-0.5 bg-neutral-100 text-neutral-400 font-semibold rounded-lg mt-3">
