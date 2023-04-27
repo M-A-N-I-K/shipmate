@@ -3,12 +3,12 @@ import InfoCards from "./infoCards";
 import Locationbar from "./locationbar";
 const searchForm = () => {
 	return (
-		<div className="flex flex-col justify-center h-[200vh] md:h-[90vh]">
+		<div className="flex flex-col justify-center h-[230vh] md:h-[90vh]">
 			<div>
-				<h1 className="mb-4 text-4xl text-center font-bold leading-none tracking-tight text-black md:text-5xl lg:text-4xl  hover:underline hover:decoration-blue">
+				<h1 className="mb-4 text-3xl text-center font-bold leading-none tracking-tight text-black md:text-5xl lg:text-4xl  hover:underline hover:decoration-blue">
 					Hassle-Free Shipping Solutions
 				</h1>
-				<p className="mb-6 text-lg text-center font-normal text-gray hover:decoration-2lg:text-lg sm:px-16  hover:underline hover:decoration-blue hover:decoration-2 xl:px-22">
+				<p className="mb-6 text-md md:text-lg text-center font-normal text-gray lg:text-lg sm:px-16  hover:underline hover:decoration-blue hover:decoration-2 xl:px-22">
 					Compare, book, and manage your freight across the world’s top
 					logistics providers, all on one platform.
 				</p>

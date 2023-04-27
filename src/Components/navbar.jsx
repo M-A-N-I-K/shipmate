@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const navbar = () => {
 	const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -63,12 +64,14 @@ const navbar = () => {
 									stroke-linejoin="round"
 								/>
 							</svg>
-							<button
-								type="button"
-								className="text-white px-4 md:px-12 bg-blue focus:ring-4 focus:outline-none font-medium rounded-lg text-xs py-1 md:py-2 gap-x-2 text-center mr-5 mb-2 md:mr-0"
-							>
-								Track Shipment
-							</button>
+							<Link to="/checkout/booking-summary">
+								<button
+									type="button"
+									className="text-white px-4 md:px-12 bg-blue focus:ring-4 focus:outline-none font-medium rounded-lg text-xs py-1 md:py-3 gap-x-2 text-center mr-5 mb-2 md:mr-0"
+								>
+									Track Shipment
+								</button>
+							</Link>
 						</div>
 					)}
 				</div>

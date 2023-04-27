@@ -3,7 +3,7 @@ import React from "react";
 const cards = () => {
 	return (
 		<>
-			<div className="w-[331px] mb-10 md:mb-0  max-w-md p-4 bg-white rounded-xl shadow-2xl  sm:p-8">
+			<div className="w-[80vw] md:md:w-[331px] mb-10 md:mb-0  max-w-md p-4 bg-white rounded-xl shadow-2xl  sm:p-8">
 				<div className="flex items-center justify-between mb-4">
 					<svg
 						width="32"
@@ -40,7 +40,7 @@ const cards = () => {
 					</p>
 				</div>
 			</div>
-			<div className="w-[331px] mb-10 md:mb-0  max-w-md p-4 bg-white rounded-xl shadow-2xl  sm:p-8">
+			<div className="md:w-[331px] w-[80vw] mb-10 md:mb-0  max-w-md p-4 bg-white rounded-xl shadow-2xl  sm:p-8">
 				<div className="flex items-center justify-between mb-4">
 					<svg
 						width="28"
@@ -80,7 +80,7 @@ const cards = () => {
 					</p>
 				</div>
 			</div>
-			<div className="w-[331px] mb-10 md:mb-0  max-w-md p-4 bg-white rounded-xl shadow-2xl sm:p-8">
+			<div className="md:w-[331px] w-[80vw] mb-10 md:mb-0  max-w-md p-4 bg-white rounded-xl shadow-2xl sm:p-8">
 				<div className="flex items-center justify-between mb-4">
 					<svg
 						width="24"
@@ -124,7 +124,7 @@ const cards = () => {
 					</p>
 				</div>
 			</div>
-			<div className="w-[331px] mb-10 md:mb-0  max-w-md p-4 bg-white rounded-xl shadow-2xl  sm:p-8">
+			<div className="md:w-[331px] w-[80vw] mb-10 md:mb-0  max-w-md p-4 bg-white rounded-xl shadow-2xl  sm:p-8">
 				<div className="flex items-center justify-between mb-4">
 					<svg
 						width="24"

@@ -16,7 +16,7 @@ const detailsCard = () => {
 						<span className="text-green text-xl pr-2">●</span>
 						Best Value
 					</button>
-					<p className="text-center text-sm md:text-lg pl-1 pt-1 text-red hover:decoration-2">
+					<p className="text-center mt-2 md:mt-0 text-sm md:text-lg pr-2 md:pr-0 pl-1 pt-1 text-red hover:decoration-2">
 						Express
 					</p>
 					<div className="h-[4vh] pt-2">
@@ -39,7 +39,7 @@ const detailsCard = () => {
 							Delhi
 						</p>
 					</div>
-					<span className="border-b-2 w-[30px] border-opacity-90 border-lightGray ml-2 pt-1 self-center h-[1px]"></span>
+					<span className="border-b-2 w-[30px] border-opacity-90 border-lightGray mb-2 md:mb-0 ml-2 pt-0 md:pt-1 self-center h-[1px]"></span>
 					<div className="flex flex-col pt-2 px-2">
 						<FontAwesomeIcon
 							icon={faPlaneUp}
@@ -47,7 +47,7 @@ const detailsCard = () => {
 							className="pb-1"
 						/>
 					</div>
-					<span className="border-b-2 w-[30px] border-opacity-90 border-lightGray pt-1 self-center h-[1px]"></span>
+					<span className="border-b-2 w-[30px] border-opacity-90 border-lightGray mb-2 md:mb-0 pt-0 md:pt-1 self-center h-[1px]"></span>
 					<div className="flex text-[10px] md:text-xs pt-1">
 						<FontAwesomeIcon
 							className="pt-1 px-2"
@@ -129,7 +129,7 @@ const detailsCard = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex flex-col h-[12vh] border-t-2 md:border-l-2 pl-2 border-lightGray border-opacity-40">
+			<div className="flex flex-col h-[12vh] border-t-2 md:border-t-0 md:border-l-2 pl-2 border-lightGray border-opacity-40">
 				<p className="text-md text-center font-semibold">$ 3,659.25</p>
 				<button
 					type="button"

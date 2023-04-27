@@ -4,7 +4,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 const locationbar = () => {
 	return (
-		<div className="w-[90vw]  h-[40vh] md:h-[8vh] p-2 flex flex-col md:flex-row justify-between content-center self-center shadow-xl rounded bg-white">
+		<div className="w-[90vw]  h-[42vh] md:h-[8vh] p-2 flex flex-col md:flex-row justify-between content-center self-center shadow-xl rounded bg-white">
 			<div className="flex justify-between items-center border-b-[1px] md:border-b-0">
 				<span className="p-4 md:p-0 md:pl-4">
 					<svg
@@ -115,7 +115,7 @@ const locationbar = () => {
 					<Link to="/checkout">
 						<button
 							type="button"
-							className="text-white bg-blue focus:ring-4 focus:outline-none font-medium rounded-xl shadow-2xl  text-sm px-32 md:px-2 py-2 gap-x-2 text-center mr-5 mb-2 md:mr-0"
+							className="text-white bg-blue focus:ring-4 focus:outline-none font-medium rounded-xl shadow-2xl text-sm px-[30vw] md:px-2 py-2 gap-x-2 text-center mr-5 mb-2 md:mr-0"
 						>
 							<FontAwesomeIcon icon={faArrowRight} />
 						</button>

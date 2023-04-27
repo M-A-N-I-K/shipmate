@@ -5,7 +5,7 @@ const sidefilterbar = () => {
 		<>
 			<nav
 				id="sidenav-1"
-				className="absolute z-[800] w-[80vw] md:w-60 -translate-x-full overflow-hidden bg-offWhite  data-[te-sidenav-hidden='false']:translate-x-0 "
+				className="flex md:absolute z-[800] w-[90vw] md:w-60 -translate-x-full overflow-hidden bg-offWhite  data-[te-sidenav-hidden='false']:translate-x-0 md:p-0 p-10"
 				data-te-sidenav-init
 				data-te-sidenav-hidden="false"
 				data-te-sidenav-position="absolute"
@@ -212,14 +212,14 @@ const sidefilterbar = () => {
 				</ul>
 			</nav>
 
-			<button
+			{/* <button
 				className="mt-10 inline-block rounded bg-primary px-6 py-2.5 text-xs font-medium uppercase leading-tight text-white shadow-md transition duration-150 ease-in-out hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg"
 				data-te-sidenav-toggle-ref
 				data-te-target="#sidenav-1"
 				aria-controls="#sidenav-1"
 				aria-haspopup="true"
 			>
-				<span className="block [&>svg]:h-5 [&>svg]:w-5 [&>svg]:text-white">
+				<span className="block [&>svg]:h-5 [&>svg]:w-5 [&>svg]:text-black">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 24 24"
@@ -233,7 +233,7 @@ const sidefilterbar = () => {
 						/>
 					</svg>
 				</span>
-			</button>
+			</button> */}
 		</>
 	);
 };

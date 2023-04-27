@@ -83,7 +83,7 @@ const floatingChatButton = () => {
 				<button
 					onClick={handleClick}
 					title="Cancel"
-					className="fixed z-90 bottom-3/4 right-8 bg-blue-600 w-10 h-10 rounded-full drop-shadow-lg flex justify-center items-center bg-purple text-white text-2xl hover:bg-blue-700 hover:drop-shadow-2xl hover:animate-bounce duration-300"
+					className="fixed z-1001 bottom-3/4 right-8 bg-blue-600 w-10 h-10 rounded-full drop-shadow-lg flex justify-center items-center bg-purple text-white text-2xl hover:bg-blue-700 hover:drop-shadow-2xl hover:animate-bounce duration-300"
 				>
 					<FontAwesomeIcon icon={faXmark} />
 				</button>
