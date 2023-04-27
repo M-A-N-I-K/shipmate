@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faPlaneUp } from "@fortawesome/free-solid-svg-icons";
-import Img from "../assets/img.jpg";
+import Img from "../assets/frame.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const detailsCard = () => {
 	return (
@@ -75,10 +75,10 @@ const detailsCard = () => {
 					<p className="text-left mt-[1px] pl-1 text-sm text-lightGray hover:decoration-2">
 						Primetime Worldwide
 					</p>
-					<div class="flex items-center pl-2">
+					<div className="flex items-center pl-2">
 						<svg
 							aria-hidden="true"
-							class="w-5 h-5 text-purple"
+							className="w-5 h-5 text-purple"
 							fill="currentColor"
 							viewBox="0 0 20 20"
 							xmlns="http://www.w3.org/2000/svg"
@@ -88,7 +88,7 @@ const detailsCard = () => {
 						</svg>
 						<svg
 							aria-hidden="true"
-							class="w-5 h-5 text-purple"
+							className="w-5 h-5 text-purple"
 							fill="currentColor"
 							viewBox="0 0 20 20"
 							xmlns="http://www.w3.org/2000/svg"
@@ -98,7 +98,7 @@ const detailsCard = () => {
 						</svg>
 						<svg
 							aria-hidden="true"
-							class="w-5 h-5 text-purple"
+							className="w-5 h-5 text-purple"
 							fill="currentColor"
 							viewBox="0 0 20 20"
 							xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +108,7 @@ const detailsCard = () => {
 						</svg>
 						<svg
 							aria-hidden="true"
-							class="w-5 h-5 text-purple"
+							className="w-5 h-5 text-purple"
 							fill="currentColor"
 							viewBox="0 0 20 20"
 							xmlns="http://www.w3.org/2000/svg"
@@ -118,7 +118,7 @@ const detailsCard = () => {
 						</svg>
 						<svg
 							aria-hidden="true"
-							class="w-5 h-5 text-gray "
+							className="w-5 h-5 text-gray "
 							fill="currentColor"
 							viewBox="0 0 20 20"
 							xmlns="http://www.w3.org/2000/svg"
