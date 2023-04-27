@@ -5,7 +5,7 @@ const sidefilterbar = () => {
 		<>
 			<nav
 				id="sidenav-1"
-				className="absolute z-[1035] w-60 -translate-x-full overflow-hidden bg-offWhite  data-[te-sidenav-hidden='false']:translate-x-0 "
+				className="absolute z-[800] w-[80vw] md:w-60 -translate-x-full overflow-hidden bg-offWhite  data-[te-sidenav-hidden='false']:translate-x-0 "
 				data-te-sidenav-init
 				data-te-sidenav-hidden="false"
 				data-te-sidenav-position="absolute"

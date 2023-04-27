@@ -115,7 +115,7 @@ const locationbar = () => {
 					<Link to="/checkout">
 						<button
 							type="button"
-							className="text-white bg-blue focus:ring-4 focus:outline-none font-medium rounded-xl shadow-2xl  text-sm px-40 md:px-2 py-2 gap-x-2 text-center mr-5 mb-2 md:mr-0"
+							className="text-white bg-blue focus:ring-4 focus:outline-none font-medium rounded-xl shadow-2xl  text-sm px-32 md:px-2 py-2 gap-x-2 text-center mr-5 mb-2 md:mr-0"
 						>
 							<FontAwesomeIcon icon={faArrowRight} />
 						</button>

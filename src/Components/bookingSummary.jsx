@@ -6,7 +6,7 @@ import DetailsCard from "./detailsCard";
 
 const bookingSummary = () => {
 	return (
-		<div className="flex flex-col justify-between h-[230vh] md:h-[90vh] bg-offWhite">
+		<div className="flex flex-col justify-between w-[100vw] h-[230vh] md:h-[90vh] bg-offWhite">
 			<div className="flex flex-col md:grid md:grid-cols-3 gap-4 bg-offWhite">
 				<div className="col-span-3 p-10 ">
 					{/* <div className="h-[8vh] w-[20vw] bg-white rounded-2xl shadow-2xl p-4">
@@ -45,38 +45,38 @@ const bookingSummary = () => {
 					<Locationbar />
 				</div>
 			</div>
-			<div className="h-[100vh] bg-offWhite pt-10 flex justify-between mr-10">
-				<div>
+			<div className="h-[200vh] md:h-[100vh] bg-offWhite pt-10 flex flex-row md:flex-col justify-between  mr-10">
+				<div className="self-start">
 					<SideFilterBar />
 				</div>
-				<div className="flex flex-col justify-between w-[75vw]">
-					<div className="flex mb-10 w-[60vw] bg-offset rounded-xl shadow-2xl">
-						<div className="h-[8vh] w-[20vw] bg-white rounded-2xl shadow-2xl p-6">
-							<h5 className="text-sm text-center font-bold hover:decoration-2 leading-none  text-purple ">
+				<div className="flex flex-col justify-between mt-10 md:mt-0 self-end w-[90vw] md:w-[75vw]">
+					<div className="flex mb-10 w-[80vw] md:w-[60vw] bg-offset rounded-xl shadow-2xl">
+						<div className="h-[8vh] w-[30vw] md:w-[20vw] bg-white rounded-2xl shadow-2xl p-6">
+							<h5 className="text-xs md:text-sm text-center font-bold hover:decoration-2 leading-none  text-purple ">
 								Best Value 5-5 days. $3,121
 							</h5>
 						</div>
-						<div className="h-[5vh] w-[20vw] p-6">
-							<h5 className="text-sm text-center font-bold hover:decoration-2 leading-none  text-lightGray ">
+						<div className="h-[5vh] w-[30vw] md:w-[20vw] p-6">
+							<h5 className="text-xs md:text-sm text-center font-bold hover:decoration-2 leading-none  text-lightGray ">
 								Quickest 5-5 days. $3,121
 							</h5>
 						</div>
-						<div className="h-[5vh] w-[20vw] p-6">
-							<h5 className="text-sm text-center font-bold hover:decoration-2 leading-none  text-lightGray ">
+						<div className="h-[5vh] w-[30vw] md:w-[20vw] p-6">
+							<h5 className="text-xs md:text-sm text-center font-bold hover:decoration-2 leading-none  text-lightGray ">
 								Cheapest 5-5 days. $3,121
 							</h5>
 						</div>
 					</div>
-					<div className="w-[60vw] h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
+					<div className="w-[80vw] h-[25vh] md:w-[60vw] md:h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
 						<DetailsCard />
 					</div>
-					<div className="w-[60vw] h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
+					<div className="w-[80vw] h-[25vh]  md:w-[60vw] md:h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
 						<DetailsCard />
 					</div>
-					<div className="w-[60vw] h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
+					<div className="w-[80vw] h-[25vh] md:w-[60vw] md:h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
 						<DetailsCard />
 					</div>
-					<div className="w-[60vw] h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
+					<div className="w-[80vw] h-[25vh] md:w-[60vw] md:h-[18vh] mb-10 bg-white rounded-xl shadow-2xl">
 						<DetailsCard />
 					</div>
 				</div>

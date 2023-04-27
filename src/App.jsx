@@ -9,9 +9,10 @@ const BookingSummary = lazy(() => import("./Components/bookingSummary"));
 
 function App() {
 	return (
-		<div>
+		<div className="bg-offWhite">
 			<BrowserRouter>
 				<Navbar />
+				<FloatingChatButton />
 				<Suspense fallback={<div>Loading...</div>}>
 					<Routes>
 						<Route path="/" element={<SearchForm />} />
@@ -30,7 +31,6 @@ function App() {
 						/>
 					</Routes>
 				</Suspense>
-				<FloatingChatButton />
 			</BrowserRouter>
 		</div>
 	);

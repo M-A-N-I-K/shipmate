@@ -3,7 +3,7 @@ import InfoCards from "./infoCards";
 import Locationbar from "./locationbar";
 const searchForm = () => {
 	return (
-		<div className="flex flex-col justify-center h-[230vh] md:h-[90vh]">
+		<div className="flex flex-col justify-center h-[200vh] md:h-[90vh]">
 			<div>
 				<h1 className="mb-4 text-4xl text-center font-bold leading-none tracking-tight text-black md:text-5xl lg:text-4xl  hover:underline hover:decoration-blue">
 					Hassle-Free Shipping Solutions

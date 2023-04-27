@@ -6,9 +6,9 @@ import Img from "../assets/frame.jpg";
 const cards = () => {
 	return (
 		<>
-			<div className="grid col-span-1 md:col-span-2 mb-10">
+			<div className="flex flex-col justify-center md:grid col-span-1 md:col-span-2 mb-10">
 				<div className="col-span-2 h-[35vh] mb-5 md:mb-0 m-[35px] bg-white rounded-xl shadow-2xl sm:p-8">
-					<h5 className="text-xl  pb-[30px] font-bold hover:decoration-2 leading-none  text-black ">
+					<h5 className="text-xl px-10 pt-10 pb-10 md:pt-0 md:px-0 md:pb-[30px] font-bold hover:decoration-2 leading-none  text-black ">
 						Booking Summary
 					</h5>
 					<div className="flex justify-between h-[10vh] font-semibold">
@@ -71,10 +71,10 @@ const cards = () => {
 						</div>
 					</div>
 				</div>
-				<div className="flex col-span-3 md:col-span-2  text-md font-semibold">
-					<div className="h-[22vh] w-[15vw] mb-10 md:mb-0 ml-[35px] mt-[35px] p-2 bg-white rounded-xl shadow-2xl sm:p-4">
+				<div className="flex col-span-1 md:col-span-2  text-md font-semibold">
+					<div className="w-[35vw] md:h-[22vh] md:w-[15vw] mb-10 md:mb-0 ml-[35px] mt-[35px] p-2 bg-white rounded-xl shadow-2xl sm:p-4">
 						<div className="flex flex-col items-center justify-center">
-							<h5 className="mb-2 pb-2 hover:decoration-2 leading-none  text-lightGray ">
+							<h5 className="mb-2 pb-2 hover:decoration-2 leading-none text-lightGray ">
 								Total Weight/Volume
 							</h5>
 							<svg
@@ -120,7 +120,7 @@ const cards = () => {
 						</div>
 					</div>
 				</div>
-				<div className="col-span-2 md:col-span-1 h-[20vh] w-[40vw] md:h-[22vh] md:w-[28vw] text-md font-semibold mb-10 md:mb-0 ml-[35px] mt-[35px] p-2 bg-white rounded-xl shadow-2xl sm:p-4">
+				<div className="justify-self-center md:col-span-1 h-[20vh] w-[80vw] md:h-[22vh] md:w-[28vw] text-md font-semibold mb-10 ml-10 md:mb-0 md:ml-[1px] mt-[35px] bg-white rounded-xl shadow-2xl p-4">
 					<h5 className="mb-2 pb-2 hover:decoration-2 leading-none  text-lightGray ">
 						Seller Primetime Worldwide
 					</h5>
@@ -135,7 +135,7 @@ const cards = () => {
 						</p>
 					</div>
 				</div>
-				<div className="col-span-2 md:col-span-1 h-[22vh] w-[30vw] mb-10 md:mb-0 ml[20px] mt-[35px] p-2 bg-white rounded-xl shadow-2xl sm:pt-4 sm:pl-6">
+				<div className="justify-self-center md:col-span-1 h-[20vh] w-[80vw] md:h-[22vh] md:w-[30vw] mb-10 md:mb-0 ml-10 md:ml-[0px] mt-[35px] p-2 bg-white rounded-xl shadow-2xl sm:pt-4 sm:pl-6">
 					<h5 className="hover:decoration-2 leading-none text-lightGray place-item-start">
 						Insurance:
 						<span className="font-semibold">Xcover.com</span>

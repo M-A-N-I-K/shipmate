@@ -6,26 +6,26 @@ import Img from "../assets/frame.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 const detailsCard = () => {
 	return (
-		<div className="flex justify-between p-6">
+		<div className="flex md:flex-row flex-col justify-between p-6">
 			<div>
 				<div className="flex justify-between">
 					<button
 						type="button"
-						className="text-black bg-lightGreen focus:ring-4 focus:outline-none font-medium rounded-xl text-sm px-4 pb-2 py-1 gap-x-2 text-center mr-5 mb-2 md:mr-0"
+						className="text-black bg-lightGreen focus:ring-4 focus:outline-none font-medium rounded-xl text-xs md:text-sm px-2 md:px-4 pb-2 py-1 gap-x-2 text-center mr-5 mb-2 md:mr-0"
 					>
 						<span className="text-green text-xl pr-2">●</span>
 						Best Value
 					</button>
-					<p className="text-center pl-1 pt-1 text-red hover:decoration-2">
+					<p className="text-center text-sm md:text-lg pl-1 pt-1 text-red hover:decoration-2">
 						Express
 					</p>
 					<div className="h-[4vh] pt-2">
-						<p className="text-center border-l-2 border-opacity-40 border-lightGray pl-5 text-sm text-lightGray hover:decoration-2">
+						<p className="text-center border-l-2 border-opacity-40 border-lightGray pl-5 text-xs md:text-sm text-lightGray hover:decoration-2">
 							Est. 5 days
 						</p>
 					</div>
 				</div>
-				<div className="flex text-xs font-semibold">
+				<div className="flex text-[10px] md:text-xs font-semibold">
 					<div className="flex pt-1">
 						<FontAwesomeIcon
 							className="pt-1 "
@@ -48,7 +48,7 @@ const detailsCard = () => {
 						/>
 					</div>
 					<span className="border-b-2 w-[30px] border-opacity-90 border-lightGray pt-1 self-center h-[1px]"></span>
-					<div className="flex text-xs pt-1">
+					<div className="flex text-[10px] md:text-xs pt-1">
 						<FontAwesomeIcon
 							className="pt-1 px-2"
 							icon={faLocationDot}
@@ -63,7 +63,7 @@ const detailsCard = () => {
 					</div>
 				</div>
 				<div className="flex pt-2">
-					<p className="text-xs mt-[1px] font-bold">
+					<p className="text-[10px] md:text-xs mt-[1px] font-bold">
 						<LazyLoadImage
 							src={<Img />}
 							width={30}
@@ -72,7 +72,7 @@ const detailsCard = () => {
 							className="pt-[1px]"
 						/>
 					</p>
-					<p className="text-left mt-[1px] pl-1 text-sm text-lightGray hover:decoration-2">
+					<p className="text-left mt-[1px] pl-1 text-xs md:text-sm text-lightGray hover:decoration-2">
 						Primetime Worldwide
 					</p>
 					<div className="flex items-center pl-2">
@@ -129,7 +129,7 @@ const detailsCard = () => {
 					</div>
 				</div>
 			</div>
-			<div className="flex flex-col h-[12vh] border-l-2 pl-2 border-lightGray border-opacity-40">
+			<div className="flex flex-col h-[12vh] border-t-2 md:border-l-2 pl-2 border-lightGray border-opacity-40">
 				<p className="text-md text-center font-semibold">$ 3,659.25</p>
 				<button
 					type="button"
